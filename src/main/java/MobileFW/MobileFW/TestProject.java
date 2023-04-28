@@ -16,7 +16,7 @@ import io.appium.java_client.android.AndroidDriver;
 public class TestProject {
 
 	public static void main(String[] args) throws MalformedURLException {		
-		System.out.println("first step under test..1....,,");
+		System.out.println("first step under test..1....test2...");
 	    File app=new File("C:\\Harish\\Study\\Java\\EclipseWS\\MobileFW\\WhatsApp.apk");
 	    System.out.println("first step under test..2");
 	    DesiredCapabilities dc=new DesiredCapabilities();
