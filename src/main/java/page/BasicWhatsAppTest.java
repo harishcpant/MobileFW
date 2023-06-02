@@ -1,21 +1,13 @@
-package MobileFW.MobileFW;
+package page;
 
 import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
-
-import org.openqa.selenium.WebDriver;
-
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-import io.appium.java_client.MobileBy;
-import io.appium.java_client.MobileDriver;
-import io.appium.java_client.android.AndroidDriver;
-
-public class TestProject {
-
-	public static void main(String[] args) throws MalformedURLException {		
+public class BasicWhatsAppTest {
+	public static void main(String[] args) throws MalformedURLException {
 		System.out.println("first step under test..1....test2...");
 	    File app=new File("C:\\Harish\\Study\\Java\\EclipseWS\\MobileFW\\WhatsApp.apk");
 	    System.out.println("first step under test..2");
@@ -29,8 +21,6 @@ public class TestProject {
 	    dc.setCapability("appActivity", "com.whatsapp.Main");
 	    URL url=new URL("http://127.0.0.1:4723/wd/hub");
 	    System.out.println("first step under test.3");
-
-
 //	    WebDriver wd=new AndroidDriver<MobileDriver>(url, dc);
 	    //Thread.sleep(6000);	
 	    //wd.manage().timeouts().pageLoadTimeout(90L, TimeUnit.SECONDS);
